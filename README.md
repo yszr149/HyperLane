@@ -44,3 +44,11 @@ Binance:
     Celo
     Avax
     BNB
+
+### **Настройки setings.json:**:
+- в OKX + Binance указывает api ключи (игнорируем required_minimum_balance и withdraw_amount)
+- h_mekr / h_nft сколько минтить (не работает подсчет транз оставляем как есть, считайте сами транзы примерно и ставьте большие паузы)
+- hFT_amount_for_mint_and_bridge - сколько минтить токенов (не нфт а токеы) меркли для бриджа, каждый токе 0.02 стоит +-
+- chains_min_balances - мин баланс, если у вас балик ниже - то будет пробовать выводить если сетка добавлена в withdrawal_networks и есть баланс на бирже
+- source_chains / destination_chains - откуда и куда бриджим
+- withdrawal_amounts сколько выводить в каждую сетку
