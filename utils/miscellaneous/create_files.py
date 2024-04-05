@@ -47,11 +47,11 @@ def create_files():
         'chains_min_balances': {
             'polygon': 1,
             'celo': 1,
-            'base': 0.0002,
+            'base': 0.00045,
             'optimism': 0.00045,
             'avalanche': 0.00045,
             'bsc': 0.0025911,
-            'moonbeam': 3
+            'moonbeam': 2
         },
         'source_chains': {
             'polygon': True,
@@ -81,13 +81,13 @@ def create_files():
             'moonbeam': True
         },
         'withdrawal_amounts': {
-            'polygon': [0.5, 2.5],
-            'celo': [0.18, 1],
-            'base': [0.0021, 0.0032],
-            'optimism': [0.00013, 0.00078],
-            'avalanche': [0.007, 0.0375],
-            'bsc': [0.00084, 0.00335],
-            'moonbeam': [0.45, 3]
+            'polygon': [1.2, 3],
+            'celo': [1,2],
+            'base': [0.006, 0.01],
+            'optimism': [0.006, 0.01],
+            'avalanche': [0.035, 0.066],
+            'bsc': [0.0027586, 0.0051724],
+            'moonbeam': [2.5, 4]
 
         },
     }
