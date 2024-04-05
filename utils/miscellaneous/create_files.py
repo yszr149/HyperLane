@@ -45,13 +45,13 @@ def create_files():
         'h_nft': {'from': 1, 'to': 3},
         'hFT_amount_for_mint_and_bridge': {'from': 1, 'to': 20},
         'chains_min_balances': {
-            'polygon': 0.25,
-            'celo': 0.2,
+            'polygon': 1,
+            'celo': 1,
             'base': 0.0002,
-            'optimism': 0.0002,
-            'avalanche': 0.0088,
-            'bsc': 0.00055908,
-            'moonbeam': 0.5
+            'optimism': 0.00045,
+            'avalanche': 0.00045,
+            'bsc': 0.0025911,
+            'moonbeam': 3
         },
         'source_chains': {
             'polygon': True,
