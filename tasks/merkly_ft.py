@@ -113,7 +113,7 @@ class MerklyHMerk(Base):
 
             res = await self.bridge(dest_chain=dest_chain)
             if 'Failed' in res:
-                return 'Failed mint'
+                return 'Failed, bridge hMERK via Merkly'
             logger.info(res)
 
             return 'Success mint and bridge hMERK via Merkly'

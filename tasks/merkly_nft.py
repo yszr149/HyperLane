@@ -116,7 +116,7 @@ class MerklyHNFT(Base):
 
             res = await self.bridge(dest_chain=dest_chain)
             if 'Failed' in res:
-                return 'Failed mint hNFT via Merkly'
+                return 'Failed bridge hNFT via Merkly'
             logger.info(res)
 
             return 'Success mint and bridge hNFT via Merkly'

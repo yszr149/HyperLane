@@ -122,6 +122,8 @@ celerybeat.pid
 # Environments
 .env
 .venv
+files/
+.idea/
 env/
 venv/
 ENV/

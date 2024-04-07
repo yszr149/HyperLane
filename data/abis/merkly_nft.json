@@ -1,0 +1,153 @@
+[
+    {
+      "type": "function",
+      "name": "fee",
+      "constant": true,
+      "stateMutability": "view",
+      "payable": false,
+      "inputs": [],
+      "outputs": [
+        {
+          "type": "uint256",
+          "name": "fee"
+        }
+      ]
+    },
+    {
+      "type": "function",
+      "name": "mint",
+      "constant": false,
+      "stateMutability": "payable",
+      "payable": true,
+      "inputs": [
+        {
+          "type": "uint256",
+          "name": "amount"
+        }
+      ],
+      "outputs": []
+    },
+    {
+      "type": "function",
+      "name": "quoteBridge",
+      "constant": true,
+      "stateMutability": "view",
+      "payable": false,
+      "inputs": [
+        {
+          "type": "uint32",
+          "name": "_destination"
+        }
+      ],
+      "outputs": [
+        {
+          "type": "uint256",
+          "name": "nativeFee"
+        }
+      ]
+    },
+    {
+      "type": "function",
+      "name": "bridgeNFT",
+      "constant": false,
+      "stateMutability": "payable",
+      "payable": true,
+      "inputs": [
+        {
+          "type": "uint32",
+          "name": "_destination"
+        },
+        {
+          "type": "uint256",
+          "name": "_Id"
+        }
+      ],
+      "outputs": [
+        {
+          "type": "bytes32",
+          "name": "messageId"
+        }
+      ]
+    },
+    {
+    "constant":true,
+    "inputs":[
+      {
+        "name":"",
+        "type":"address"
+      }
+    ],
+    "name":"balanceOf",
+    "outputs":[
+      {
+        "name":"",
+        "type":"uint256"
+      }
+    ],
+    "payable":false,
+    "stateMutability":"view",
+    "type":"function"
+  },
+  {
+      "inputs":[
+         {
+            "internalType":"uint256",
+            "name":"index",
+            "type":"uint256"
+         }
+      ],
+      "name":"tokenByIndex",
+      "outputs":[
+         {
+            "internalType":"uint256",
+            "name":"",
+            "type":"uint256"
+         }
+      ],
+      "stateMutability":"view",
+      "type":"function"
+   },
+   {
+      "inputs":[
+         {
+            "internalType":"uint256",
+            "name":"tokenId",
+            "type":"uint256"
+         }
+      ],
+      "name":"ownerOf",
+      "outputs":[
+         {
+            "internalType":"address",
+            "name":"",
+            "type":"address"
+         }
+      ],
+      "stateMutability":"view",
+      "type":"function"
+   },
+  {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "owner",
+                "type": "address"
+            },
+            {
+                "internalType": "uint256",
+                "name": "index",
+                "type": "uint256"
+            }
+        ],
+        "name": "tokenOfOwnerByIndex",
+        "outputs": [
+            {
+                "internalType": "uint256",
+                "name": "",
+                "type": "uint256"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    }
+]
